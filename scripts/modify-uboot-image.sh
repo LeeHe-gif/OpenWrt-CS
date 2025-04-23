@@ -3,31 +3,13 @@
 # mnt/workdir/openwrt/bin/targets/rockchip/armv8/
 
 
-# 农商云g68 plus
-gzip -d openwrt-rockchip-armv8-nsy_g68-plus-squashfs-sysupgrade.img.gz
-ls
-
-dd if=$GITHUB_WORKSPACE/configfiles/rk3568-6.x-uboot.img of=openwrt-rockchip-armv8-nsy_g68-plus-squashfs-sysupgrade.img bs=512 seek=64 conv=notrunc
-
-gzip openwrt-rockchip-armv8-nsy_g68-plus-squashfs-sysupgrade.img
-
-
-# 农商云g16 plus
-gzip -d openwrt-rockchip-armv8-nsy_g16-plus-squashfs-sysupgrade.img.gz
-ls
-
-dd if=$GITHUB_WORKSPACE/configfiles/rk3568-6.x-uboot.img of=openwrt-rockchip-armv8-nsy_g16-plus-squashfs-sysupgrade.img bs=512 seek=64 conv=notrunc
-
-gzip openwrt-rockchip-armv8-nsy_g16-plus-squashfs-sysupgrade.img
-
-
 # 彼度云g18 pro
-gzip -d openwrt-rockchip-armv8-bdy_g18-pro-squashfs-sysupgrade.img.gz
+gzip -d openwrt-rockchip-armv8-alark35_3500-squashfs-sysupgrade.img.gz
 ls
 
-dd if=$GITHUB_WORKSPACE/configfiles/rk3568-6.x-uboot.img of=openwrt-rockchip-armv8-bdy_g18-pro-squashfs-sysupgrade.img bs=512 seek=64 conv=notrunc
+dd if=$GITHUB_WORKSPACE/configfiles/rk3568-6.x-uboot.img of=openwrt-rockchip-armv8-alark35_3500-squashfs-sysupgrade.img bs=512 seek=64 conv=notrunc
 
-gzip openwrt-rockchip-armv8-bdy_g18-pro-squashfs-sysupgrade.img
+gzip openwrt-rockchip-armv8-alark35_3500-squashfs-sysupgrade.img
 
 
 rm -f sha256sums
