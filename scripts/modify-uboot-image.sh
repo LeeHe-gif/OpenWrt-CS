@@ -3,7 +3,7 @@
 # mnt/workdir/openwrt/bin/targets/rockchip/armv8/
 
 
-# 彼度云g18 pro
+# ALARK35 3500
 gzip -d openwrt-rockchip-armv8-alark35_3500-squashfs-sysupgrade.img.gz
 ls
 
